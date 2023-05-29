@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P06_My_Local_Banks</string>
+    <string name="d">DBS</string>
+    <string name="o">OCBC</string>
+    <string name="u">UOB</string>
+    <string name="dCL">星展银行</string>
+    <string name="oCL">华侨银行</string>
+    <string name="uCL">大华银行</string>
+</resources>

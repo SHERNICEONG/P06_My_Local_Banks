@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:gravity="center"
+        android:text="My Local Banks"
+        android:textColor="#F1DBCF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:fontFamily="@font/baloo_paaji"
+        android:gravity="center"
+        android:text="Long Press for More"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewDbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:gravity="center"
+        android:text="@string/d"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewOcbc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:gravity="center"
+        android:text="@string/o"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewUob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:gravity="center"
+        android:text="@string/u"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+</LinearLayout>
